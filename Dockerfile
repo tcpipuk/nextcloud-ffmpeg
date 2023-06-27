@@ -3,5 +3,5 @@ FROM nextcloud:stable
 
 # Install ffmpeg
 RUN apt-get update && \
-    apt-get install -y ffmpeg exiftool && \
+    apt-get install -y ffmpeg && \
     rm -rf /var/lib/apt/lists/*
